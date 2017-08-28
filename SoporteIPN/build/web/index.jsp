@@ -10,6 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Inicio | Centro de Atención a Usuarios IPN</title>
+        
+        <!--Refencia para sweet alert, Agregar el archivo a la ruta-->
+        <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
+        
         <jsp:include page="estilos/estiloGeneral.jsp" />
     </head>
     <body>
@@ -132,6 +136,10 @@
       </main>
         
     <!--SCRIPTS-->
-        <jsp:include page="scripts/scriptGeneral.jsp" />
+    <!--SCRIPT PARA EL SWEET ALERT, , Agregar el archivo a la ruta-->
+    <script src="assets/js/sweetalert.min.js"></script>
+    <script>  swal("AVISO DE PRIVACIDAD:", "Aqui va la descripcion del aviso "); </script>
+    <jsp:include page="scripts/scriptGeneral.jsp" />
+    
     </body>
 </html>

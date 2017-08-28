@@ -39,7 +39,7 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Contacto</a></li>
                 <li><a href="preguntas-frecuentes.jsp">Preguntas Frecuentes</a></li>
-                <li><a href="manuales-y-documentacion.jsp">Manuales y Documentación</a></li>
+                <li><a href="manuales-documentacion.jsp">Manuales y Documentación</a></li>
                 <li><a href="gestion-calidad.jsp">Gestión de calidad</a></li>
                 <li><a href="mision-vision.jsp">Misión y Visión</a></li>
               </ul>
