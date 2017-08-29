@@ -137,6 +137,7 @@
         
     <!--SCRIPTS-->
     <!--SCRIPT PARA EL SWEET ALERT, , Agregar el archivo a la ruta-->
+    <script src="assets/js/slider-avisos.js"></script>
     <script src="assets/js/sweetalert.min.js"></script>
     <script>  swal("AVISO DE PRIVACIDAD:", "Aqui va la descripcion del aviso "); </script>
     <jsp:include page="scripts/scriptGeneral.jsp" />
