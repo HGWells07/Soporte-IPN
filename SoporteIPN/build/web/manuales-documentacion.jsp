@@ -11,11 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Acerca de Nosotros | Centro de Atención a Usuarios IPN</title>
         <jsp:include page="estilos/estiloGeneral.jsp" />
-        <style>
-            .link-social-cau, .link-social-cau:hover, .link-social-cau:active, .link-social-cau:visited{
-                text-decoration: none; color:black;
-            }
-        </style>
+        <link href="assets/css/links.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         

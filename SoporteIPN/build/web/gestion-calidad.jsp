@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Gestión de Calidad | Centro de Atención a Usuarios IPN</title>
         <jsp:include page="estilos/estiloGeneral.jsp" />
+        <link href="assets/css/links.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         
@@ -123,6 +124,11 @@
                 </p>
             </div>
         </div>
+        
+        <br/>
+        
+        <h4>Documentación</h4>
+        <hr />
 
         </div>
 
@@ -133,24 +139,57 @@
           </div>
 
           <div class="row">
-              <br />
               <div class='col-sm-2'></div>
-              <div class="col-sm-8">
-                  <h4>Documentación</h4>
-                  <hr />
+              <div class="col-sm-4">
+                <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-list" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Evaluación de Indicadores de los últimos 3 meses
+                    </p>
+                </a>
+                  <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Análisis de riesgo para procesos del CAU
+                    </p>
+                </a>
+                  <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Documentos de procesos de calidad
+                    </p>
+                </a>
+              </div>
+              <div class="col-sm-4">
+                  <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Documentos de procesos operativos
+                    </p>
+                </a>
+                  <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Reporte gerencial del periodo
+                    </p>
+                </a>
+                  <a href="#" class="link-social-cau" target="_blank">
+                    <p class="bg-info" style="padding: 10px;" >
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Documentos de consulta
+                    </p>
+                </a>
               </div>
               <div class='col-sm-2'></div>
           </div>
 
     <div class="row">
-
-        
-
     </div>
     
   </div>
 
   <div class="row">
+        <br />
         <br />
     </div>
 
