@@ -52,7 +52,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-parent="#accordion3" data-toggle="collapse" href="#panel-03" aria-expanded="true" aria-controls="panel-02">
+                    <a data-parent="#accordion3" data-toggle="collapse" href="#panel-03" aria-expanded="true" aria-controls="panel-03">
                     Requerimientos para obtener el correo electrónico institucional
                     </a>
                 </h4>

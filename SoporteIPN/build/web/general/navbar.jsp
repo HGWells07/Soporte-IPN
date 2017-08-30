@@ -20,6 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="index.jsp"><img src="assets/images/headphones.png" alt="CAU"></a>
           <a class="navbar-brand" href="index.jsp" id="nav-title">
             CAU - IPN
           </a>
@@ -37,11 +38,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acerca de <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Contacto</a></li>
-                <li><a href="preguntas-frecuentes.jsp">Preguntas Frecuentes</a></li>
-                <li><a href="manuales-documentacion.jsp">Manuales y Documentación</a></li>
+                <li><a href="acerca-de.jsp">Acerca De Nosotros</a></li>
                 <li><a href="gestion-calidad.jsp">Gestión de calidad</a></li>
-                <li><a href="mision-vision.jsp">Misión y Visión</a></li>
+                <li><a href="manuales-documentacion.jsp">Manuales y Documentación</a></li>
+                <li><a href="preguntas-frecuentes.jsp">Preguntas Frecuentes</a></li>
               </ul>
             </li>
           </ul>
