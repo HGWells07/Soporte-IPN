@@ -25,13 +25,16 @@
         <jsp:include page="general/navbar.jsp" />
         <jsp:include page="general/cabecera.jsp" />
             
-         <!--
-      CONTENIDO CUERPO
-      =========================================================================================================
+    <!--
+        CONTENIDO CUERPO
+        =========================================================================================================
     -->
 
   <div class="container">
-
+    <!--
+    	AVISO
+        =========================================================================================================
+    -->
     <div class="row">
         
         <div class="col-sm-8 col-sm-offset-2">
@@ -42,14 +45,26 @@
             </h2>
             
         </div>
-
-    </div>
+        
+    <!--
+    	FORMULARIO
+        =========================================================================================================
+    -->
+    </div> 
+        <h3>Registro de solicitudes</h3>
+        <select>
+            <option>Selecciona un servicio</option>
+            <option>Correo institucional</option>
+            <option>Correo administrativo</option>
+	</select>
+        <br /><br />
+        <jsp:include page="formularios/correo-institucional.jsp" />
     
   </div>
 
   <div class="row">
         <br />
-    </div>
+  </div>
 
 </main>
         

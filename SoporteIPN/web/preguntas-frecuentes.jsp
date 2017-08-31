@@ -188,7 +188,7 @@
                 <div class="panel-collapse collapse " id="panel-07">
                 <div class="panel-body">
                     <p>-Pendiente-</p>
-                    <p class="text-justify">Puedes descargar tu formato aquí<a href="docts/manuales/OptimizaNet.doc">aquí</a>.</p>
+                    <p class="text-justify">Puedes descargar tu formato <a href="docts/manuales/OptimizaNet.doc">aquí</a>.</p>
                 </div>
                 </div>
             </div>

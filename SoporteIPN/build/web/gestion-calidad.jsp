@@ -51,7 +51,7 @@
 
         <p class="text-justify">
             El Centro de Atención a Usuarios (CAU) cuenta con un Sistema 
-            de Gestión de Calidad certificado en base a la norma ISO 9001:2008, 
+            de Gestión de Calidad certificado en base a la norma ISO 9001:2015, 
             cuyo propósito es brindar una atención de calidad a los usuarios 
             que soliciten de los servicios que oferta la CGSI cumpliendo así 
             con sus expectativas.
@@ -79,13 +79,13 @@
             <div class="tab-pane" id="tab-02">
                 <p class="text-justify">
                     <ul>
-                        <li>Atender las solicitudes de servicio relacionadas a las Tecnologías de la Información y Comunicaciones (TIC) requeridas por nuestros usuarios y partes interesadas, a través de los distintos medios de contacto con los que cuenta el CAU, de manera oportuna.</li>
-                        <li>Brindar un servicio eficaz en el seguimiento de las solicitudes de servicio, para satisfacer las necesidades de los usuarios. </li>
-                        <li>Contar con personal competente en las áreas de tecnologías de la información para ofrecer un servicio de primer nivel.</li>
-                        <li>Garantizar que la infraestructura se mantenga en óptimas condiciones para la correcta operación de nuestros procesos a través de la realización de mantenimientos y respaldos.</li>
-                        <li>Apoyar a la Alta Dirección en la toma de decisiones mediante la generación de reportes gerenciales, para la mejora continua de los servicios.</li>
-                        <li>Cumplir con las medidas establecidas en la Matriz de Administración de Riesgos PTAR vigente, para asegurar que el SGC pueda lograr los resultados previstos.</li>
-                        <li>Incorporar mejoras en los servicios brindados con base en los resultados de las encuestas de calidad para incrementar la satisfacción de los usuarios y partes interesadas. </li>
+                        <li class="text-justify">Atender las solicitudes de servicio relacionadas a las Tecnologías de la Información y Comunicaciones (TIC) requeridas por nuestros usuarios y partes interesadas, a través de los distintos medios de contacto con los que cuenta el CAU, de manera oportuna.</li>
+                        <li class="text-justify">Brindar un servicio eficaz en el seguimiento de las solicitudes de servicio, para satisfacer las necesidades de los usuarios. </li>
+                        <li class="text-justify">Contar con personal competente en las áreas de tecnologías de la información para ofrecer un servicio de primer nivel.</li>
+                        <li class="text-justify">Garantizar que la infraestructura se mantenga en óptimas condiciones para la correcta operación de nuestros procesos a través de la realización de mantenimientos y respaldos.</li>
+                        <li class="text-justify">Apoyar a la Alta Dirección en la toma de decisiones mediante la generación de reportes gerenciales, para la mejora continua de los servicios.</li>
+                        <li class="text-justify">Cumplir con las medidas establecidas en la Matriz de Administración de Riesgos PTAR vigente, para asegurar que el SGC pueda lograr los resultados previstos.</li>
+                        <li class="text-justify">Incorporar mejoras en los servicios brindados con base en los resultados de las encuestas de calidad para incrementar la satisfacción de los usuarios y partes interesadas. </li>
                     </ul>
                 </p>
             </div>
@@ -96,11 +96,11 @@
         <hr />
 
         <ul class="nav nav-tabs">
-            <li class="active tab-title"><a data-toggle="tab" href="#tab-01" style='font-weight: bold'>MISIÓN DEL CAU</a></li>
-            <li class="tab-title" ><a data-toggle="tab" href="#tab-02" style='font-weight: bold'>VISIÓN DEL CAU</a></li>
+            <li class="active tab-title"><a data-toggle="tab" href="#MISION" style='font-weight: bold'>MISIÓN DEL CAU</a></li>
+            <li class="tab-title" ><a data-toggle="tab" href="#VISION" style='font-weight: bold'>VISIÓN DEL CAU</a></li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane active" id="tab-01">
+            <div class="tab-pane active" id="MISION">
                 <p class="text-justify">
                     El Centro de Atención a Usuarios (CAU) es un área 
                     de la Coordinación General de Servicios Informáticos; 
@@ -111,7 +111,7 @@
                     o responsables de informática de sus Escuelas, Centros o Unidades.
                 </p>
             </div>
-            <div class="tab-pane" id="tab-02">
+            <div class="tab-pane" id="VISION">
                 <p class="text-justify">
                     Ser para el año 2020 la única instancia reconocida 
                     por la comunidad del Instituto Politécnico Nacional, 
