@@ -124,7 +124,7 @@
                 <img data-src="holder.js/300x200" alt="..." src="assets/images/cgsi.png">
                 <div class="caption">
                   <h3>CGSI</h3>
-                  <p>Coordinación General de Sistemas Informáticos</p>
+                  <p>Coordinación General de Servicios Informáticos</p>
                   <p><a href="http://www.cgsi.ipn.mx/Paginas/Inicio.aspx" class="btn btn-primary btn-sm" >Página de la CGSI</a></p>
                 </div>
               </div>

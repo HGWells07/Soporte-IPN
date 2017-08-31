@@ -60,7 +60,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-03">
                 <div class="panel-body">
-                    <p>Si desea que se genere o recupere una cuenta de correo electrónico institucional 
+                    <p class="text-justify">Si desea que se genere o recupere una cuenta de correo electrónico institucional 
                     a su nombre deberá enviar la siquiente información a la dirección crm@ipn.mx a 
                     través de nuestro formulario o llamar a la extención 29832 con los siguientes datos:</p>
                     <ul>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-01">
                 <div class="panel-body">
-                    <p>Se realiza por medio de un formato (el cual se envia por parte del CAU si el Jefe de la Udi no cuenta con el) 
+                    <p class="text-justify">Se realiza por medio de un formato (el cual se envia por parte del CAU si el Jefe de la Udi no cuenta con el) 
                     el Jefe de la Unidad de Informatica lo llena y nos lo envia por correo electronico a la cuenta crm@ipn.mx. 
                     El Agente telefonico recibe el correo, levanta la solicitud y adjunta el formato.</p>
                 </div>
@@ -112,7 +112,7 @@
                 <button type="button" class="collpase-button collapsed" data-parent="#accordion2" data-toggle="collapse" href="#panel-02"></button>
                 </div>
                 <div class="panel-collapse collapse " id="panel-02">
-                <div class="panel-body">
+                <div class="panel-body text-justify">
                     <ol type="a">
                     <li>El servicio es de manera Permanente: Se deberá elaborar un oficio dirigido al Director de Cómputo y Comunicaciones con atención al Jefe del Departamento de Seguridad Informática, adjuntando la información del sistema en el Formato para Registro de Servicios y Aplicaciones, entregado en medio electrónico. </li>
                     <br />
@@ -142,7 +142,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-04">
                 <div class="panel-body">
-                    <p>
+                    <p class="text-justify">
                         Para poder desenrutar la extension telefonica deseada, 
                         se debe adquirir tono en la linea y posteriormente 
                         presionar las teclas #2 del aparato telefonico.
@@ -167,7 +167,7 @@
                 <div class="panel-collapse collapse " id="panel-06">
                 <div class="panel-body">
                     <p>-Pendiente-</p>
-                    <p>Puedes descargar tu formato aquí</p>
+                    <p class="text-justify">Puedes descargar tu formato <a href="docts/manuales/OptimizaTel_fase_III_V2.doc">aquí</a>.</p>
                 </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                 <div class="panel-collapse collapse " id="panel-07">
                 <div class="panel-body">
                     <p>-Pendiente-</p>
-                    <p>Puedes descargar tu formato aquí</p>
+                    <p class="text-justify">Puedes descargar tu formato aquí<a href="docts/manuales/OptimizaNet.doc">aquí</a>.</p>
                 </div>
                 </div>
             </div>
@@ -208,7 +208,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-08">
                 <div class="panel-body">
-                    <p>
+                    <p class="text-justify">
                         Un grupo de captura es una funcion 
                         entre dos o mas extensiones para que 
                         al momento de que entre una llamada cualquier 
@@ -234,7 +234,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-09">
                 <div class="panel-body">
-                    <p>
+                    <p class="text-justify">
                         Un grupo de cobertura es una funcion entre dos extensiones para que a 
                         determinado numero de timbres en la primera extension, se transfiera 
                         automaticamente a la segunda.
@@ -258,7 +258,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-10">
                 <div class="panel-body">
-                    <p>
+                    <p class="text-justify">
                         El responsable de la unidad de informática deberá enviar por correo electrónico 
                         su solicitud al siguiente correo: seguridad@ipn.mx con copia al centro de atención
                          a usuarios cau@ipn.mx o crm@ipn.mx, proporcionando los siguientes datos: 
@@ -287,7 +287,7 @@
                 </div>
                 <div class="panel-collapse collapse " id="panel-11">
                 <div class="panel-body">
-                    <p>
+                    <p class="text-justify">
                         El jefe de unidad de informática deberá elaborar un oficio dirigido a la 
                         directora de cómputo y comunicaciones con atención al jefe del departamento 
                         de seguridad informática, con los siguientes datos: 

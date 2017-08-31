@@ -49,8 +49,8 @@
 
         <hr />
 
-        <p>
-            El Centro de Atención a Usuarios (CAU) Cuenta con un Sistema 
+        <p class="text-justify">
+            El Centro de Atención a Usuarios (CAU) cuenta con un Sistema 
             de Gestión de Calidad certificado en base a la norma ISO 9001:2008, 
             cuyo propósito es brindar una atención de calidad a los usuarios 
             que soliciten de los servicios que oferta la CGSI cumpliendo así 
@@ -65,7 +65,7 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab-01">
-                <p>
+                <p class="text-justify">
                     El Centro de Atención a Usuarios de la Coordinación General de 
                     Servicios Informáticos está comprometido con la comunidad del 
                     Instituto Politécnico Nacional y partes interesadas en ofrecer 
@@ -77,7 +77,7 @@
                 </p>
             </div>
             <div class="tab-pane" id="tab-02">
-                <p>
+                <p class="text-justify">
                     <ul>
                         <li>Atender las solicitudes de servicio relacionadas a las Tecnologías de la Información y Comunicaciones (TIC) requeridas por nuestros usuarios y partes interesadas, a través de los distintos medios de contacto con los que cuenta el CAU, de manera oportuna.</li>
                         <li>Brindar un servicio eficaz en el seguimiento de las solicitudes de servicio, para satisfacer las necesidades de los usuarios. </li>
@@ -101,7 +101,7 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab-01">
-                <p>
+                <p class="text-justify">
                     El Centro de Atención a Usuarios (CAU) es un área 
                     de la Coordinación General de Servicios Informáticos; 
                     cuya función primordial es ofrecer el servicio de atención y 
@@ -112,7 +112,7 @@
                 </p>
             </div>
             <div class="tab-pane" id="tab-02">
-                <p>
+                <p class="text-justify">
                     Ser para el año 2020 la única instancia reconocida 
                     por la comunidad del Instituto Politécnico Nacional, 
                     encargada de gestionar las solicitudes de servicio en 
@@ -140,45 +140,225 @@
 
           <div class="row">
               <div class='col-sm-2'></div>
+              
+              <!--Columna 1-->
               <div class="col-sm-4">
-                <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-list" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Evaluación de Indicadores de los últimos 3 meses
-                    </p>
-                </a>
-                  <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Análisis de riesgo para procesos del CAU
-                    </p>
-                </a>
-                  <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Documentos de procesos de calidad
-                    </p>
-                </a>
+                  
+                <!-- Evaluación de indicadores-->
+                <div class="panel-group ficha-collapse" id="accordion1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion1" data-toggle="collapse" href="#panel-01" aria-expanded="true" aria-controls="panel-01">
+                                <i class="fa fa-list" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Evaluación de Indicadores
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion1" data-toggle="collapse" href="#panel-01"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-01">
+                        <div class="panel-body">
+                            <a href="../../../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Julio 2017
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-MC-01 10_072017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Julio 2017
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-MC-01 09_062017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Junio 2017
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-MC-01 10_062017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Junio 2017
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-MC-01 09_052017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Mayo 2017
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-MC-01 10_052017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Mayo 2017
+                                </p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Análisis de Riesgos-->
+                <div class="panel-group ficha-collapse" id="accordion2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion2" data-toggle="collapse" href="#panel-02" aria-expanded="true" aria-controls="panel-02">
+                                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Análisis de Riesgos
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion2" data-toggle="collapse" href="#panel-02"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-02">
+                        <div class="panel-body">
+                            <a href="../../../secure/Riesgos CAU.xls" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Riesgos para Procesos del CAU
+                                </p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Procesos de calidad -->
+                <div class="panel-group ficha-collapse" id="accordion3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion3" data-toggle="collapse" href="#panel-03" aria-expanded="true" aria-controls="panel-03">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Procesos de Calidad
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion3" data-toggle="collapse" href="#panel-03"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-03">
+                        <div class="panel-body">
+                            <a href="../../../secure/CGSI-MC-01 Manual de calidad.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-MC-01 Manual de calidad
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PC-01 Auditoria internas.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PC-01 Auditorias internas
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PC-02 Servicio no conforme.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PC-02 Servicio no conforme
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PC-03 Acciones correctivas.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PC-03 Acciones correctivas
+                                </p>
+                            </a>    
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                  
               </div>
+              
+              <!--Columna 2-->
               <div class="col-sm-4">
-                  <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-cog" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Documentos de procesos operativos
-                    </p>
-                </a>
-                  <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Reporte gerencial del periodo
-                    </p>
-                </a>
-                  <a href="#" class="link-social-cau" target="_blank">
-                    <p class="bg-info" style="padding: 10px;" >
-                        <i class="fa fa-info-circle" aria-hidden="true"></i>
-                        &nbsp;&nbsp;Documentos de consulta
-                    </p>
-                </a>
+                  <!-- Procesos Operativos -->
+                <div class="panel-group ficha-collapse" id="accordion4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion4" data-toggle="collapse" href="#panel-04" aria-expanded="true" aria-controls="panel-04">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Procesos Operativos
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion4" data-toggle="collapse" href="#panel-04"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-04">
+                        <div class="panel-body">
+                            <a href="../../../secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-IT-01 Inst. mantenimiento a la BD
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PO-01 Gestion de solicitudes de servicio
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PO-02 Respaldo de base de datos de crm.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PO-02 Respaldo de base de datos de CRM
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PO-03 Generacion de reportes gerenciales.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PO-03 Generacion de reportes gerenciales
+                                </p>
+                            </a>
+                            <a href="../../../secure/CGSI-PO-04 Mantenimiento a infraestructura del CAU.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-PO-04 Mant. a infraestructura del CAU
+                                </p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Reporte gerencial del periodo-->
+                <div class="panel-group ficha-collapse" id="accordion5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion5" data-toggle="collapse" href="#panel-05" aria-expanded="true" aria-controls="panel-05">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Reporte Gerencial
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion5" data-toggle="collapse" href="#panel-05"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-05">
+                        <div class="panel-body">
+                            <a href="./docts/2017 Trimestre 2.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Reporte gerencial del periodo
+                                </p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Documentos de consulta -->
+                <div class="panel-group ficha-collapse" id="accordion6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-parent="#accordion6" data-toggle="collapse" href="#panel-06" aria-expanded="true" aria-controls="panel-06">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                &nbsp;&nbsp;Consulta
+                            </a>
+                        </h4>
+                        <button type="button" class="collpase-button collapsed" data-parent="#accordion6" data-toggle="collapse" href="#panel-06"></button>
+                        </div>
+                        <div class="panel-collapse collapse " id="panel-06">
+                        <div class="panel-body">
+                            <a href="./docts/LMDR.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-MC-01/01 Lista M. de documentos y registros 
+                                </p>
+                            </a>
+                            <a href="./docts/CGSI-MC-01 03_Minuta de reunion.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    CGSI-MC-01/03 Minuta de reunion
+                                </p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
               </div>
               <div class='col-sm-2'></div>
           </div>
