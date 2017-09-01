@@ -90,8 +90,8 @@
               <div class="thumbnail">
                 <img data-src="holder.js/300x200" alt="..." src="assets/images/dcyc.png">
                 <div class="caption">
-                  <h3>DCYC</h3>
-                  <p>Dirección de Cómputo y Comunicaciones</p>
+                  <h3 style="height: 60px;">DCYC</h3>
+                  <p style="height: 100px;">Página de la Dirección de Cómputo y Comunicaciones</p>
                   <p><a href="http://www.dcyc.ipn.mx/Paginas/Inicio.aspx" class="btn btn-primary btn-sm">Página DCYC</a></p>
                 </div>
               </div>
@@ -101,8 +101,8 @@
               <div class="thumbnail">
                 <img data-src="holder.js/300x200" alt="..." src="assets/images/acerca-de.png">
                 <div class="caption">
-                  <h3>Acerca de nosotros</h3>
-                  <p>Únete a nuestras redes sociales y contáctanos</p>
+                  <h3 style="height: 60px;">Acerca de nosotros</h3>
+                  <p style="height: 100px;">Únete a nuestras redes sociales y contáctanos</p>
                   <p><a href="acerca-de.jsp" class="btn btn-primary btn-sm" >Más información</a></p>
                 </div>
               </div>
@@ -112,8 +112,8 @@
               <div class="thumbnail">
                 <img data-src="holder.js/300x200" alt="..." src="assets/images/question-mark.png">
                 <div class="caption">
-                  <h3>Preguntas frecuentes</h3>
-                  <p>Pasos a seguir para solicitud de correo, cambio de display y más</p>
+                  <h3 style="height: 60px;">Preguntas frecuentes</h3>
+                  <p style="height: 100px;">Pasos a seguir para solicitud de correo, cambio de display y más</p>
                   <p><a href="preguntas-frecuentes.jsp" class="btn btn-primary btn-sm" >Preguntas Frecuentes</a></p>
                 </div>
               </div>
@@ -123,8 +123,8 @@
               <div class="thumbnail">
                 <img data-src="holder.js/300x200" alt="..." src="assets/images/cgsi.png">
                 <div class="caption">
-                  <h3>CGSI</h3>
-                  <p>Coordinación General de Servicios Informáticos</p>
+                  <h3 style="height: 60px;">CGSI</h3>
+                  <p style="height: 100px;">Página de la Coordinación General de Servicios Informáticos</p>
                   <p><a href="http://www.cgsi.ipn.mx/Paginas/Inicio.aspx" class="btn btn-primary btn-sm" >Página de la CGSI</a></p>
                 </div>
               </div>
