@@ -282,7 +282,7 @@
                                     CGSI-IT-01 Inst. mantenimiento a la BD
                                 </p>
                             </a>
-                            <a href="./secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PO-01 Gestion de solicitudes de servicio.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-01 Gestion de solicitudes de servicio
                                 </p>
