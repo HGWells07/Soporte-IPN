@@ -158,32 +158,32 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-01">
                         <div class="panel-body">
-                            <a href="../../../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Julio 2017
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-MC-01 10_072017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 10_072017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Matriz de Control Julio 2017
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-MC-01 09_062017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 09_062017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Junio 2017
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-MC-01 10_062017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 10_062017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Matriz de Control Junio 2017
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-MC-01 09_052017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 09_052017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Mayo 2017
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-MC-01 10_052017.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 10_052017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Matriz de Control Mayo 2017
                                 </p>
@@ -207,7 +207,7 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-02">
                         <div class="panel-body">
-                            <a href="../../../secure/Riesgos CAU.xls" class="link-social-cau" target="_blank">
+                            <a href="./../secure/Riesgos CAU.xls" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Riesgos para Procesos del CAU
                                 </p>
@@ -231,22 +231,22 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-03">
                         <div class="panel-body">
-                            <a href="../../../secure/CGSI-MC-01 Manual de calidad.pdf" class="link-social-cau" target="_blank">
+                            <a href="./../secure/CGSI-MC-01 Manual de calidad.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-MC-01 Manual de calidad
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PC-01 Auditoria internas.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PC-01 Auditoria internas.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PC-01 Auditorias internas
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PC-02 Servicio no conforme.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PC-02 Servicio no conforme.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PC-02 Servicio no conforme
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PC-03 Acciones correctivas.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PC-03 Acciones correctivas.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PC-03 Acciones correctivas
                                 </p>
@@ -277,27 +277,27 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-04">
                         <div class="panel-body">
-                            <a href="../../../secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-IT-01 Inst. mantenimiento a la BD
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-IT-01 Instructivo mantenimiento a la BD.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-01 Gestion de solicitudes de servicio
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PO-02 Respaldo de base de datos de crm.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PO-02 Respaldo de base de datos de crm.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-02 Respaldo de base de datos de CRM
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PO-03 Generacion de reportes gerenciales.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PO-03 Generacion de reportes gerenciales.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-03 Generacion de reportes gerenciales
                                 </p>
                             </a>
-                            <a href="../../../secure/CGSI-PO-04 Mantenimiento a infraestructura del CAU.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PO-04 Mantenimiento a infraestructura del CAU.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-04 Mant. a infraestructura del CAU
                                 </p>
