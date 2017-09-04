@@ -17,7 +17,7 @@
     </div>
     <div class="row">
       <div class="col-md-8">
-        <img src="assets/images/cabecera3.png">
+        <img src="assets/images/cabecera2.png">
       </div>
     </div>
   </div>
