@@ -9,31 +9,37 @@
 <!--
       ENCABEZADO DE GOBIERNO Y IPN
       =========================================================================================================
-    -->
+-->
 
-  <div class="container">
+<div class="container">
     <div class="row">
-      <br /><br />
+        <br /><br />
     </div>
     <div class="row">
-      <div class="col-md-8">
-        <img src="assets/images/cabecera2.png">
-      </div>
+        <div class="col-md-8">
+            <img src="assets/images/cabecera2.png">
+        </div>
     </div>
-  </div>
+</div>
 
 
-  <!--
-      ENCABEZADO DE LA PAGINA
-      =========================================================================================================
-    -->
+<!--
+    ENCABEZADO DE LA PAGINA
+    =========================================================================================================
+-->
 
-  <div class="jumbotron" id="jumboheader">
+<div class="jumbotron">
     <div class="container">
-      <h2>Centro de Atención a Usuarios</h2>
-      <h3>Instituto Politécnico Nacional</h3>
-      <p>
-
-      </p>
+        <div class="col-md-6 col-md-offset-0 text-center hidden-lg hidden-md" style="">
+            <h2>Centro de Atención a Usuarios</h2>
+        </div>
+        <div class="col-md-6 col-md-offset-0 text-right hidden-sm hidden-xs" style="">
+            <h2>Centro de Atención a Usuarios</h2>
+        </div>
+        <div class="col-md-1 hidden-sm hidden-xs"></div>
+        <div class="col-md-1 hidden-sm hidden-xs" style="border-left: 3px #666666 solid; height: 120px;"></div>
+        <div class="col-md-4 hidden-sm hidden-xs">
+            <img alt="CAU" src="./assets/images/headset.png" style="height: 120px;">
+        </div>
     </div>
-  </div>
+</div>
