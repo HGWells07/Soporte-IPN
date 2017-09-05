@@ -30,10 +30,16 @@
 
   <div class="jumbotron" id="jumboheader">
     <div class="container">
-      <h2>Centro de Atención a Usuarios</h2>
-      <h3>Instituto Politécnico Nacional</h3>
-      <p>
-
-      </p>
+        <div class="col-md-12 text-center hidden-md hidden-lg">
+            <h2>Centro de Atención a Usuarios</h2>
+        </div>
+        <div class="col-md-5 text-right hidden-xs hidden-sm">
+            <h2>Centro de Atención a Usuarios</h2>
+        </div>
+        <div class="col-md-1 hidden-xs hidden-sm" style="border-right: 2px #666666 solid; height: 120px;"></div>
+        <div class="col-md-1 hidden-xs hidden-sm"></div>
+        <div class="col-md-4 text-left hidden-xs hidden-sm">
+            <img src="./assets/images/cauLOGOS.png" alt="CAU" style="height: 120px;"/>
+        </div>
     </div>
   </div>
