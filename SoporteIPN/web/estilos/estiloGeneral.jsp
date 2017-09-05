@@ -9,3 +9,4 @@
 <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 <link href="./assets/css/index-style.css" rel="stylesheet">
 <link href="./assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="./assets/css/cabecera.css" rel="stylesheet" type="text/css"/>
