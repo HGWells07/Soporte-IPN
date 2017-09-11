@@ -1,4 +1,4 @@
-﻿<%-- 
+<%-- 
     Document   : acerca-de
     Created on : 29/08/2017, 04:32:16 PM
     Author     : OSVALDO
@@ -42,10 +42,31 @@
             El Centro de Atención a Usuarios (CAU) es una Mesa de Servicio Calificada,
             con el objetivo de ser el único punto de contacto para llevar a cabo la gestión
             de las solicitudes de servicio de Tecnologías de la Información y la Comunicación.
-		</br>
-		<a href="assets/images/orggrm.jpg" target="_blank">Organigrama</a>
         </p>
-            
+        
+        </br>
+		
+        <!--Organigrama-->
+        <div class="panel-group ficha-collapse" id="accordion1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#panel-01" aria-expanded="true" aria-controls="panel-01">
+                    Organigrama
+                    </a>
+                </h4>
+                <button type="button" class="collpase-button collapsed" data-parent="#accordion1" data-toggle="collapse" href="#panel-01"></button>
+                </div>
+                <div class="panel-collapse collapse " id="panel-01">
+                <div class="panel-body">
+                    <img src="./assets/images/orggrm.jpg" alt="organigrama" class="img-thumbnail"/>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <br/>
+                
             <h3>Contacto</h3>
             <hr />
         </div>
@@ -114,9 +135,6 @@
         
         <!--SCRIPTS-->
         <jsp:include page="scripts/scriptGeneral.jsp" />
-        
-    </body>
-</html>     <jsp:include page="scripts/scriptGeneral.jsp" />
         
     </body>
 </html>
