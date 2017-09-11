@@ -1,4 +1,4 @@
-<%-- 
+﻿<%-- 
     Document   : index.jsp
     Created on : 24/08/2017, 06:19:17 PM
     Author     : OSVALDO
@@ -25,6 +25,8 @@
             %>    
             <jsp:include page="general/navbar.jsp" />
             <jsp:include page="general/cabecera.jsp" />
+
+
 
         <!--
             CONTENIDO CUERPO
