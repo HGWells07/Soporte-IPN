@@ -67,7 +67,7 @@
                 <!--Apartado de imagenes-->
                 <div id="avisos-wrapper">
                   <div id="avisos-image-container">
-                    <img id="image-avisos" src="./assets/images/img01.jpg" alt="Aviso" />
+                    <img id="image-avisos" src="./assets/images/avisos/img01.jpg" alt="Aviso" />
                   </div>
                 </div>
 

@@ -1,9 +1,10 @@
+var dir = "./assets/images/avisos/";
 var images_array = [
-    "./assets/images/img01.jpg",
-    "./assets/images/img02.jpg",
-    "./assets/images/img03.jpg",
-    "./assets/images/img04.jpg",
-    "./assets/images/img05.jpg"
+    dir + "img01.jpg",
+    dir + "img02.jpg",
+    dir + "img03.jpg",
+    dir + "img04.jpg",
+    dir + "img05.jpg"
 ];
 
 var current_image = 0;
