@@ -12,9 +12,17 @@
         <title>Solicitud de Servicio | Centro de Atención a Usuarios IPN</title>
         <jsp:include page="estilos/estiloGeneral.jsp" />
         <link href="assets/css/links.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
     </head>
     <body>
-        
+        <script src="./assets/js/sweetalert.min.js"></script>
+        <%
+
+        if(request.getParameter("sent")!=null){
+            out.println("<script>swal('Correo Enviado','Tu solicitud se ha enviado');</script>");
+        }
+
+        %>
         <main>
             
         <%
@@ -41,7 +49,7 @@
         
             <h2 class="bg-warning" style="padding: 10px;">
                 <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                Esta página está en construcción
+                Esta página está en versión Beta
             </h2>
             
         </div>
@@ -51,12 +59,14 @@
         =========================================================================================================
     -->
     </div> 
+    <!--
         <h3>Registro de solicitudes</h3>
         <select>
             <option>Selecciona un servicio</option>
             <option>Correo institucional</option>
             <option>Correo administrativo</option>
 	</select>
+    -->
         <br /><br />
         <jsp:include page="formularios/correo-institucional.jsp" />
     
