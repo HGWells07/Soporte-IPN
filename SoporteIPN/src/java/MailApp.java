@@ -19,10 +19,29 @@ public class MailApp extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        String message =  request.getParameter("curp");
+        
+        //Se obtienen los parametros del formulario de correo
+        String curp =  request.getParameter("curp");
+        String unidad = request.getParameter("unidad");
+        String matricula = request.getParameter("matricula");
+        String rol = request.getParameter("rol");
+        String ext = request.getParameter("extension");
+        String correo = request.getParameter("correo");
+        String nombre = request.getParameter("nombre") + " " + request.getParameter("apellido1") + " " + request.getParameter("apellido2");
+        
+        //Se genera el mensaje con los datos recopilados del formulario
+        String message = curp + 
+                "\n" + rol + 
+                "\n" + matricula + 
+                "\n" + nombre +
+                "\n" + unidad +
+                "\n" + ext + 
+                "\n" + correo;
+        
+        
         String user = "cau_tics@ipn.mx";
         String to = "crm@ipn.mx";
-        String subject = "hola";
+        String subject = "Prueba WEB";
         String pass = "Ay607513";
         SendMail.send(to,subject, message, user, pass);
         System.out.println("enviando...");
