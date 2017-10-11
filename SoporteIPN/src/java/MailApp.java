@@ -19,13 +19,14 @@ public class MailApp extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        
+        String message =  request.getParameter("curp");
+        String user = "cau_tics@ipn.mx";
         String to = "crm@ipn.mx";
-        String subject = request.getParameter("curp");
-        String message =  "hola";
-        String user = "cliente_cau@hotmail.com";
-        String pass = "IpN*7541Z";
+        String subject = "hola";
+        String pass = "Ay607513";
         SendMail.send(to,subject, message, user, pass);
-        out.println("Mail send successfully");
+        System.out.println("enviando...");
+        response.sendRedirect("solicitud-servicio.jsp?sent=true");
     }   
+    
 }

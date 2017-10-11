@@ -4,10 +4,11 @@
     Author     : OSVALDO
 --%>
 
+<%@page import="java.util.Properties"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <h4>Solicitud de correo electrónico institucional</h4>
-        
+       
 <form class="form-horizontal" role="form" id="" name="" action="sendmail" method="post" onsubmit="return validacion()">
     <fieldset>
     <legend></legend>

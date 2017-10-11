@@ -12,9 +12,17 @@
         <title>Solicitud de Servicio | Centro de Atención a Usuarios IPN</title>
         <jsp:include page="estilos/estiloGeneral.jsp" />
         <link href="assets/css/links.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
     </head>
     <body>
-        
+        <script src="./assets/js/sweetalert.min.js"></script>
+        <%
+
+        if(request.getParameter("sent")!=null){
+            out.println("<script>swal('Correo Enviado','Tu solicitud se ha enviado');</script>");
+        }
+
+        %>
         <main>
             
         <%
