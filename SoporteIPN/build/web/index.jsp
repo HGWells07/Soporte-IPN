@@ -44,32 +44,34 @@
 
             <div class="jumbotron" id="avisos-slider-container" style="margin: 0px;">
 
-                <div id="avisos-button-left" class="arrow-slider-container">
-                  <div class="arrow-vertical-center">
-                    <div class="arrow-element-container"  id="arrow-avisos-left" onclick="left(); window.clearInterval(autoSlide);">
-                      <div class="arrow-element">
-                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+                    
+                  <div id="avisos-button-left" class="arrow-slider-container">
+                    <div class="arrow-vertical-center">
+                      <div class="arrow-element-container"  id="arrow-avisos-left" onclick="left(); window.clearInterval(autoSlide);">
+                        <div class="arrow-element">
+                          <i class="fa fa-caret-left" aria-hidden="true"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div id="avisos-button-right" class="arrow-slider-container">
-                  <div class="arrow-vertical-center">
-                    <div class="arrow-element-container" id="arrow-avisos-right" onclick="right(); window.clearInterval(autoSlide);">
-                      <div class="arrow-element">
-                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                  <div id="avisos-button-right" class="arrow-slider-container">
+                    <div class="arrow-vertical-center">
+                      <div class="arrow-element-container" id="arrow-avisos-right" onclick="right(); window.clearInterval(autoSlide);">
+                        <div class="arrow-element">
+                          <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <!--Apartado de imagenes-->
-                <div id="avisos-wrapper">
-                  <div id="avisos-image-container">
-                    <img id="image-avisos" src="./assets/images/avisos/img01.jpg" alt="Aviso" />
+                  <!--Apartado de imagenes-->
+                  <div id="avisos-wrapper">
+                    <div id="avisos-image-container">
+                      <img id="image-avisos" src="./assets/images/avisos/img01.jpg" alt="Aviso" />
+                    </div>
                   </div>
-                </div>
+                    
 
             </div>
 
