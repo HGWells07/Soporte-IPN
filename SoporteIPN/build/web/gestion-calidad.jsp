@@ -1,4 +1,4 @@
-﻿<%-- 
+<%-- 
     Document   : gestion-calidad
     Created on : 28/08/2017, 05:09:20 PM
     Author     : OSVALDO
@@ -127,20 +127,6 @@
         
         <br/>
         
-
-        <h3>Valores</h3>
-
-        <hr />
-
-        <p class="text-justify">
-            El CAU se rige por el código de conducta Institucional, Lo invitamos a conocerlo desde el enlace:
-	    </br>
-	    </br>
-		<a href="http://www.codigodeconducta.ipn.mx/Documents/codigo/170627-CC-web.pdf" target="_blank">¡Conocelo aquí!</a> 	
-	    </br>
-        </p>
-	    </br>
-
         <h4>Documentación</h4>
         <hr />
 
@@ -172,17 +158,6 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-01">
                         <div class="panel-body">
-
-                            <a href="./../secure/CGSI-MC-01 09_082017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Análisis de Datos Agosto 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 10_082017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Matriz de Control Agosto 2017
-                                </p>
-                            </a>
                             <a href="./../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Julio 2017
@@ -203,7 +178,16 @@
                                     Matriz de Control Junio 2017
                                 </p>
                             </a>
-
+                            <a href="./../secure/CGSI-MC-01 09_052017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Mayo 2017
+                                </p>
+                            </a>
+                            <a href="./../secure/CGSI-MC-01 10_052017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Mayo 2017
+                                </p>
+                            </a>
                         </div>
                         </div>
                     </div>
@@ -303,7 +287,7 @@
                                     CGSI-PO-01 Gestion de solicitudes de servicio
                                 </p>
                             </a>
-                            <a href="./secure/CGSI-PO-02 Respaldo de BD de CRM.pdf" class="link-social-cau" target="_blank">
+                            <a href="./secure/CGSI-PO-02 Respaldo de base de datos de crm.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     CGSI-PO-02 Respaldo de base de datos de CRM
                                 </p>

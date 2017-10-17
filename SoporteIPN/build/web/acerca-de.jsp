@@ -99,6 +99,66 @@
                 </a>
             </div>
         </div>
+        
+        <div class="col-sm-8 col-sm-offset-2 meet-the-team">
+            <br/><br/>
+            <h3>Grupo de trabajo</h3>
+            <hr/>
+            <br/>
+            <div class="panel-group ficha-collapse" id="accordion1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-parent="#accordion2" data-toggle="collapse" href="#panel-02" aria-expanded="true" aria-controls="panel-02">
+                        Conoce al equipo
+                        </a>
+                    </h4>
+                    <button type="button" class="collpase-button collapsed" data-parent="#accordion2" data-toggle="collapse" href="#panel-02"></button>
+                    </div>
+                    <div class="panel-collapse collapse " id="panel-02">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6 text-center">
+                                <img src="./assets/images/cau-profile-default.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>M.T.I. Alberto Ramses Yañez Gutiérrez</h4>
+                                <p>Coordinador del Centro de Atención a Usuarios</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; ayanezg@ipn.mx</p>
+                                <br/>
+                                <img src="./assets/images/cau-profile-default.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>Ing. Osvaldo Hurtado Chávez</h4>
+                                <p>Agente de soporte</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; ohurtadoh@ipn.mx</p>
+                                <br/>
+                                <img src="./assets/images/cau-profile-default.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>Juan Carlos Nevarez Tovar</h4>
+                                <p>Agente de soporte</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; jnevarezt1500@alumno.ipn.mx</p>
+                                <br/>
+                            </div>
+                            <div class="col-sm-6 text-center">
+                                <img src="./assets/images/cau-profile-default.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>Lic. Itzi Sarai Mateo Lechuga</h4>
+                                <p>Supervisor del Centro de Atención a Usuarios</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; imateo@ipn.mx</p>
+                                <br/>
+                                <br/>
+                                <img src="./assets/images/cau-profile-default.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>Lic. Laura Yizel Mateo Lechuga</h4>
+                                <p>Agente de Soporte</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; lmateo@ipn.mx</p>
+                                <br/>
+                                <img src="./assets/images/fine.png" class="is-circle" alt="agente cau" width="210"/>
+                                <h4>Carlos Eduardo González Anguiano</h4>
+                                <p>Agente de soporte</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; cgonzaleza1501@alumno.ipn.mx</p>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-8 col-sm-offset-2">
             <br /><br />
             <h3>Horario</h3>

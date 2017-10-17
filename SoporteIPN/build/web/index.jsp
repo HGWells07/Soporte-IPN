@@ -42,7 +42,7 @@
 
             </div>
 
-            <div class="jumbotron" id="avisos-slider-container" style="margin: 0px;">
+            <div class="jumbotron" id="avisos-slider-container">
 
                 <div id="avisos-button-left" class="arrow-slider-container">
                   <div class="arrow-vertical-center">
@@ -72,6 +72,7 @@
                 </div>
 
             </div>
+            <br />
 
             <div class="container">
 
