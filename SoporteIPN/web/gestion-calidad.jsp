@@ -1,4 +1,4 @@
-<%-- 
+﻿<%-- 
     Document   : gestion-calidad
     Created on : 28/08/2017, 05:09:20 PM
     Author     : OSVALDO
@@ -158,7 +158,28 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-01">
                         <div class="panel-body">
-                            <a href="./../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
+                            
+                            <a href="./../secure/CGSI-MC-01 09_092017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Septiembre 2017
+                                </p>
+                            </a>
+                            <a href="./../secure/CGSI-MC-01 10_092017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Septiembre 2017
+                                </p>
+                            </a>
+                            <a href="./../secure/CGSI-MC-01 09_082017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Agosto 2017
+                                </p>
+                            </a>
+                            <a href="./../secure/CGSI-MC-01 10_082017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Agosto 2017
+                                </p>
+                            </a>
+			    <a href="./../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Julio 2017
                                 </p>
@@ -166,26 +187,6 @@
                             <a href="./../secure/CGSI-MC-01 10_072017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Matriz de Control Julio 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 09_062017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Análisis de Datos Junio 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 10_062017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Matriz de Control Junio 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 09_052017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Análisis de Datos Mayo 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 10_052017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Matriz de Control Mayo 2017
                                 </p>
                             </a>
                         </div>
@@ -321,7 +322,7 @@
                         </div>
                         <div class="panel-collapse collapse " id="panel-05">
                         <div class="panel-body">
-                            <a href="./docts/2017 Trimestre 2.pdf" class="link-social-cau" target="_blank">
+                            <a href="./docts/2017 Trimestre 3.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Reporte gerencial del periodo
                                 </p>
