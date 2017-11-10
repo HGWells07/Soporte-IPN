@@ -33,6 +33,7 @@
                 <li><a href="solicitud-servicio.jsp">Hacer una solicitud</a></li>
                 <li class="divider"></li>
                 <li><a href="catalogo-servicios.jsp">Catálogo de servicios</a></li>
+                <li><a href="aviso-de-privacidad.jsp">Aviso de privacidad</a></li>
               </ul>
             </li>
             <li class="dropdown">

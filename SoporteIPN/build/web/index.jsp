@@ -15,8 +15,10 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
         
         <jsp:include page="estilos/estiloGeneral.jsp" />
+        <!--SCRIPT PARA SLIDER-->
+        <script src="assets/js/slider-avisos.js"></script>
     </head>
-    <body>
+    <body onload="right();">
         <main class="page">
             <%
                 //Includes Generales, imprime
@@ -66,9 +68,16 @@
 
                 <!--Apartado de imagenes-->
                 <div id="avisos-wrapper">
-                  <div id="avisos-image-container">
-                    <img id="image-avisos" src="./assets/images/avisos/img01.jpg" alt="Aviso" />
-                  </div>
+                    <a id="link-imagen" >
+                       <div id="avisos-image-container">
+                        <img id="image-avisos"
+                             src="./assets/images/avisos/img01.jpg" 
+                             alt="Aviso"
+                             data-target=""
+                             data-toggle=""
+                             href="" />
+                      </div>
+                    </a>
                 </div>
 
             </div>
@@ -136,11 +145,20 @@
 
             </div>
         </main>
+            
+            <!--   MODAL     -->
+        <div id="modalAviso" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-body">
+                      <img src="assets/images/test.png" class="img-responsive">
+                  </div>
+              </div>
+            </div>
+          </div>
         
     <!--SCRIPTS-->
         <jsp:include page="scripts/scriptGeneral.jsp" />
-        <!--SCRIPT PARA SLIDER-->
-        <script src="assets/js/slider-avisos.js"></script>
         <!--SCRIPTS PARA SWEET ALERT-->
         <script src="assets/js/sweetalert.min.js"></script>
         <script>  swal("AVISO DE PRIVACIDAD:", "\n\

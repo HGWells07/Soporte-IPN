@@ -28,6 +28,9 @@ public class SendMail
            for authentication to Session instance 
         */
 
+     //Inicializa una sesión con las propiedades de correo y una instancia de
+     //autenticador de correo de Java
+     
     Session session = Session.getInstance(props,new javax.mail.Authenticator()
     {
             @Override

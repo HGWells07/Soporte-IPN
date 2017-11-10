@@ -6,9 +6,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
 
 @WebServlet(name = "sendmail", urlPatterns = {"/sendmail"})
 
@@ -45,6 +42,10 @@ public class MailApp extends HttpServlet {
         String pass = "Ay607513";
         SendMail.send(to,subject, message, user, pass);
         System.out.println("enviando...");
+        
+        //Redirecciona a la página de solicitud con el parámetro de sent=true
+        //para desplegar el mensaje al usuario de que su correo ha sido enviado
+        //correctamente.
         response.sendRedirect("solicitud-servicio.jsp?sent=true");
     }   
     
