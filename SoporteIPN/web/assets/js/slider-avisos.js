@@ -3,8 +3,8 @@ var max_lenght = 5; //Número maximo de elementos de la galería
 
 var images_array = [
     {nombreImagen:dir+'img01.jpg', link:'', modal:1},
-    {nombreImagen:dir+'img02.jpg', link:'#', modal:0},
-    {nombreImagen:dir+'img03.jpg', link:'', modal:1},
+    {nombreImagen:dir+'img02.jpg', link:'acerca-de.jsp', modal:0},
+    {nombreImagen:dir+'img03.jpg', link:'solicitud-servicio.jsp', modal:0},
     {nombreImagen:dir+'img04.jpg', link:'#', modal:0},
     {nombreImagen:dir+'img05.jpg', link:'', modal:1}
 ];

@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <h4>Solicitud de correo electrónico institucional</h4>
        
-<form class="form-horizontal" role="form" id="" name="" action="sendmail" method="post" onsubmit="return validacion()">
+<form class="form-horizontal" role="form" id="formularioCorreo" name="" action="" method="post" onsubmit="return validacion(this)">
     <fieldset>
     <legend></legend>
 <!--
@@ -18,8 +18,8 @@ CURP
 -->
     <div class="form-group">
             <div class="col-sm-6">
-                    <label class="control-label">CURP</label>
-                    <input class="form-control" placeholder="Inserta tu CURP (18 caracteres)" type="text" maxlength="18" name="curp">
+                    <label class="control-label">CURP</label>&nbsp;&nbsp;¿No conoces tu curp? Chécalo <a target="_blank" href="https://www.renapo.gob.mx/swb/swb/RENAPO/consultacurp">aquí</a>
+                    <input class="form-control" placeholder="Inserta tu CURP (18 caracteres)" type="text" maxlength="18" name="curp" id="campoCurp">
             </div>
     </div>
     <div class="form-group">

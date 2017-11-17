@@ -38,6 +38,14 @@
             
             <h3>Manuales y Documentación</h3>
             <hr />
+            
+            <!--
+            ============== 
+            ============== 
+            ==============   ESTA SECCIÓN CONTIENE RUTAS A ARCHIVOS
+            ==============
+            ============== 
+            -->
         
             <!-- Centro de Atención a Usuarios -->
             <div class="panel-group ficha-collapse" id="accordion3">

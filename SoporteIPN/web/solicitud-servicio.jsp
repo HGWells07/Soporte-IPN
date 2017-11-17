@@ -13,6 +13,7 @@
         <jsp:include page="estilos/estiloGeneral.jsp" />
         <link href="assets/css/links.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
+        <script src="./assets/js/validacion.js" type="text/javascript"></script>
     </head>
     <body>
         <script src="./assets/js/sweetalert.min.js"></script>
@@ -80,6 +81,5 @@
         
         <!--SCRIPTS-->
         <jsp:include page="scripts/scriptGeneral.jsp" />
-        
     </body>
 </html>

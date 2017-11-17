@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejemplo</title>
+        <link rel="stylesheet" type="text/css" href="modal.css">
+    </head>
+    <body>
+        <!-- Imagen normal, lazara el modal con un click -->
+        <img id="imagen" src="documento.png" alt="documento" width="200" height="200">
+
+        <!-- Modal -->
+        <div id="Modal_img" class="modal">
+
+            <!-- Boton para cerrar el modal -->
+            <span class="btn_cerrar">&times;</span>
+
+            <!-- Contenido del modal (imagen) -->
+            <img class="contenido" id="documento">
+
+            <!-- Subtitulo del modal (Texto de la imagen) -->
+            <div id="descripcion"></div>
+            
+        </div>
+
+        <script src="modal.js"></script>
+    </body>
+</html>

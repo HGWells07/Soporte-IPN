@@ -1,0 +1,117 @@
+/* Estilo de la imagen en pequeña (dispara modal) */
+
+#imagen {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#imagen:hover {
+    opacity: 0.7;
+}
+
+
+/* Modal (fondo) */
+
+.modal {
+    /* Oculto por default */
+    display: none;
+    /* Se mantiene en su lugar */
+    position: fixed;
+    /* Encima de todo */
+    z-index: 1;
+    /* localizacion de la caja */
+    padding-top: 100px;
+    /* Todo el ancho*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    /*Todo el alto */
+    height: 100%;
+    /* Desactiva la scrollbar si no se necesita */
+    overflow: auto;
+    /* Color de fondo negro con opacidad*/
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* Contenido del modal (Imagen) */
+
+.contenido {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* Descripcion de la imagen dentro del modal - Mismo ancho que la imagen */
+
+#descripcion {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* Animacion - Modal con Zoom */
+
+.contenido,
+#descripcion {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.4s;
+    animation-name: zoom;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Boton pa cerrar modal */
+
+.btn_cerrar {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn_cerrar:hover,
+.btn_cerrar:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Ancho de la imagen del 100% en pantallas mas pequeñas */
+
+@media only screen and (max-width: 700px) {
+    .contenido {
+        width: 100%;
+    }
+}
