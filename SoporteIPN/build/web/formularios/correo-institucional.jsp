@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <h4>Solicitud de correo electrónico institucional</h4>
        
-<form class="form-horizontal" role="form" id="formularioCorreo" name="" action="" method="post" onsubmit="return validacion(this)">
+<form class="form-horizontal" role="form" id="formularioCorreo" name="formularioCorreoInstitucional" action="sendmail" method="post" onsubmit="return validacion(this)">
     <fieldset>
     <legend></legend>
 <!--

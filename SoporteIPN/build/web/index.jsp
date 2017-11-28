@@ -12,13 +12,14 @@
         <title>Inicio | Centro de Atención a Usuarios IPN</title>
         
         <!--Refencia para sweet alert-->
-        <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css">
-        
+        <link href="assets/css/modal.css" rel="stylesheet" type="text/css"/>
         <jsp:include page="estilos/estiloGeneral.jsp" />
         <!--SCRIPT PARA SLIDER-->
         <script src="assets/js/slider-avisos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.5/sweetalert2.all.min.js" integrity="sha256-+o52HNkh2pOdtWp5oW97TQqKwKalekAyBiaSvbzJmgc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./assets/css/sweetalert.css" />
     </head>
-    <body onload="right();">
+    <body>
         <main class="page">
             <%
                 //Includes Generales, imprime
@@ -48,7 +49,7 @@
 
                 <div id="avisos-button-left" class="arrow-slider-container">
                   <div class="arrow-vertical-center">
-                    <div class="arrow-element-container"  id="arrow-avisos-left" onclick="left(); window.clearInterval(autoSlide);">
+                    <div class="arrow-element-container"  id="arrow-avisos-left" onclick="clearInterval(autoSlide)">
                       <div class="arrow-element">
                         <i class="fa fa-caret-left" aria-hidden="true"></i>
                       </div>
@@ -58,7 +59,7 @@
 
                 <div id="avisos-button-right" class="arrow-slider-container">
                   <div class="arrow-vertical-center">
-                    <div class="arrow-element-container" id="arrow-avisos-right" onclick="right(); window.clearInterval(autoSlide);">
+                    <div class="arrow-element-container" id="arrow-avisos-right" onclick="clearInterval(autoSlide)">
                       <div class="arrow-element">
                         <i class="fa fa-caret-right" aria-hidden="true"></i>
                       </div>
@@ -71,10 +72,8 @@
                     <a id="link-imagen" >
                        <div id="avisos-image-container">
                         <img id="image-avisos"
-                             src="./assets/images/avisos/img01.jpg" 
+                             src="" 
                              alt="Aviso"
-                             data-target=""
-                             data-toggle=""
                              href="" />
                       </div>
                     </a>
@@ -147,22 +146,46 @@
         </main>
             
             <!--   MODAL     -->
-        <div id="modalAviso" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-body">
-                      <img src="assets/images/test.png" class="img-responsive">
-                  </div>
-              </div>
+           <div id="modal" class="modal">
+
+                <!-- Boton para cerrar el modal -->
+                <span id="modal_cerrar">&times;</span>
+
+                <!-- Contenido del modal (imagen) -->
+                <img id="modal_imagen" />
+
+                <!-- Subtitulo del modal (Texto de la imagen) -->
+                <div id="modal_descripcion"></div>
             </div>
-          </div>
         
     <!--SCRIPTS-->
         <jsp:include page="scripts/scriptGeneral.jsp" />
+        
         <!--SCRIPTS PARA SWEET ALERT-->
         <script src="assets/js/sweetalert.min.js"></script>
-        <script>  swal("AVISO DE PRIVACIDAD:", "\n\
-    El Centro de Atención a Usuarios le informa que los datos personales proporcionados por la comunidad del Instituto Politécnico Nacional y de instancias ajenas al Instituto, están protegidos y serán incorporados y tratados en el 'Sistema de Administración de Incidencias' (SAI), con fundamento en la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados y Ley Federal de Transparencia y Acceso a la Información Pública.\n\
-    \n\El Centro de Atención a Usuarios es responsable de la información recibida vía telefónica, correo electrónico, redes sociales y oficios; por lo que la dirección donde el interesado podrá ejercer los derechos de acceso y corrección ante la misma es Central Inteligente de Cómputo, Av. Juan de Dios Bátiz S/N, esquina Ma. Luisa Estampa Ortigoza, Unidad Profesional 'Adolfo López Mateos' Zacatenco, Del. Gustavo A. Madero, C.P. 07738 México, D.F. Teléfono 5729.6000 Ext. 29832 (AYUDA) Lo anterior se informa en cumplimiento al décimo séptimo de los Lineamientos de Protección de Datos Personales publicados en el Diario Oficial de la Federación el 30 de septiembre de 2005."); </script>  
+        <script> 
+            swal(
+             {
+                title: '<b>Aviso de privacidad</b><br/>'+
+                'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+
+                '<br /><a href="aviso-de-privacidad.jsp">Leer más</a>',
+                type: 'info',
+                html:
+                  'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+
+                  '<br /><a href="aviso-de-privacidad.jsp">Leer más</a>',
+                showCloseButton: true,
+                showCancelButton: false,
+                focusConfirm: false,
+                confirmButtonText:
+                  'Aceptar',
+                confirmButtonAriaLabel: 'Aceptar',
+                cancelButtonText:
+                'Leer más',
+                cancelButtonAriaLabel: 'Leer más'
+              }        
+            );
+        </script>  
+    <script src="assets/js/slider-avisos.js"></script>
     </body>
+    
 </html>

@@ -26,6 +26,8 @@ public class MailApp extends HttpServlet {
         String correo = request.getParameter("correo");
         String nombre = request.getParameter("nombre") + " " + request.getParameter("apellido1") + " " + request.getParameter("apellido2");
         
+        nombre = nombre.toUpperCase();
+        
         //Se genera el mensaje con los datos recopilados del formulario
         String message = curp + 
                 "\n" + rol + 

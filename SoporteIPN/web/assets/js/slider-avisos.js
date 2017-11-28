@@ -1,12 +1,48 @@
 var dir = "./assets/images/avisos/"; //Ruta de las imagenes
-var max_lenght = 5; //Número maximo de elementos de la galería
+var max_lenght = 4; //Número maximo de elementos de la galería
 
 var images_array = [
-    {nombreImagen:dir+'img01.jpg', link:'', modal:1},
-    {nombreImagen:dir+'img02.jpg', link:'acerca-de.jsp', modal:0},
-    {nombreImagen:dir+'img03.jpg', link:'solicitud-servicio.jsp', modal:0},
-    {nombreImagen:dir+'img04.jpg', link:'#', modal:0},
-    {nombreImagen:dir+'img05.jpg', link:'', modal:1}
+    //Imagen 1
+    {
+        src:dir+'img01.jpg',
+        link:'#',
+        modal:1,
+        srcModal: './assets/images/modal_01.jpg',
+        descripcion: 'Hola'
+        
+    },
+    //Imagen 2
+    {
+        src:dir+'img02.jpg',
+        link:'aviso-de-privacidad.jsp',
+        modal:0,
+        srcModal: '',
+        descripcion: ''
+    },
+    //Imagen 3
+    {
+        src:dir+'img03.jpg',
+        link:'solicitud-servicio.jsp',
+        modal:0,
+        srcModal: '',
+        descripcion: ''
+    },
+    //Imagen 4
+    {
+        src:dir+'img04.jpg',
+        link:'#',
+        modal:0,
+        srcModal: '',
+        descripcion: ''
+    },
+    //Imagen 5
+    {
+        src:dir+'img05.jpg',
+        link:'#',
+        modal:0,
+        srcModal: '',
+        descripcion: ''
+    }
 ];
 
 var current_image = 0;
@@ -14,31 +50,31 @@ var max_index = max_lenght;
 var rightElement = document.getElementById("arrow-avisos-right");
 var leftElement = document.getElementById("arrow-avisos-left");
 
-var cargarValores = function() {
-    document.getElementById("image-avisos").src = images_array[current_image].nombreImagen;
-    document.getElementById("link-imagen").href = images_array[current_image].link;
-    if(images_array[current_image].modal===1){
-        document.getElementById("link-imagen").dataset.target = "#modalAviso";
-        document.getElementById("link-imagen").dataset.toggle = "modal";
-    }else {
-        document.getElementById("link-imagen").dataset.target = "";
-        document.getElementById("link-imagen").dataset.toggle = "";
-    }
-};
+var modal = document.getElementById('modal');
+var image = document.getElementById('image-avisos');
+var link = document.getElementById('link-imagen');
 
-document.addEventListener("DOMContentLoaded", function(){
-    cargarValores();
-});
+// Traido la imagen y la inserto dentro del modal - Uso su "alt" para la descripcion de pie
+var modal_imagen = document.getElementById("modal_imagen");
+var modal_descripcion = document.getElementById("modal_descripcion");
+var modal_cerrar = document.getElementById("modal_cerrar");
+
+
+// Get the <span> element that closes the modal
+
+// When the user clicks on <span> (x), close the modal
 
 var cambiarValores = function() {
-    document.getElementById("image-avisos").src = images_array[current_image].nombreImagen;
-    document.getElementById("link-imagen").href = images_array[current_image].link;
-    if(images_array[current_image].modal===1){
-        document.getElementById("link-imagen").dataset.target = "#modalAviso";
-        document.getElementById("link-imagen").dataset.toggle = "modal";
+    image.src=images_array[current_image].src;
+    link.href=images_array[current_image].link;
+    if(images_array[current_image].modal === 1){
+        image.onclick = function() {
+            modal.style.display = "block";
+            modal_imagen.src = images_array[current_image].srcModal;
+            modal_descripcion.innerHTML = images_array[current_image].descripcion;
+        };
     } else {
-        document.getElementById("link-imagen").dataset.target = "";
-        document.getElementById("link-imagen").dataset.toggle = "";
+        image.onclick = function(){};
     }
 };
 
@@ -49,6 +85,7 @@ var right = function() {
         current_image += 1;
     }
     cambiarValores();
+    
 };
 
 var left = function () {
@@ -58,7 +95,33 @@ var left = function () {
         current_image -= 1;
     }
     cambiarValores();
+    
 };
 
-var autoSlide = window.setInterval(right, 5000);
+var intervalId;
+    function galeria() {
+        if (intervalId) {
+            clearInterval(intervalId);
+        }
+        intervalId = setInterval(right, 3000);
+    };
+galeria();
+
+document.addEventListener("DOMContentLoaded", function(){
+    cambiarValores();
+    modal_cerrar.onclick = function () {
+        modal.style.display = "none";
+    };
+    
+    rightElement.onclick = function() {
+        clearInterval(intervalId); right();
+    };
+
+    leftElement.onclick = function() {
+        clearInterval(intervalId); left();
+    };
+    
+});
+
+
 
