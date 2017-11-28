@@ -46,8 +46,8 @@
             -->
             <div class="col-sm-6">
                 <label class="control-label">No. Empleado / Boleta</label>
-                <input class="form-control" placeholder="Ingresa tu No. empleado/boleta" type="text" name="matricula" maxlength="10" 
-                       onchange="valicionNUM(this);" style="text-transform: uppercase;" required/>
+                <input class="form-control" type="text" placeholder="Ingresa tu No. empleado/boleta" id='matricula' maxlength="10" 
+                       onchange="valicionNUM();" style="text-transform: uppercase;" required/>
             </div>
         </div>
         <!--
@@ -69,7 +69,7 @@
             <div class="col-sm-12">
                 <label class="control-label">Primer Apellido</label>
                 <input class="form-control" placeholder="Ingresa tu primer apellido" type="text" name="apellido1" id='apellido1'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('apellido1'')" required/>
+                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('apellido1')" required/>
             </div>
 
         </div>
@@ -107,7 +107,8 @@
             -->
             <div class="col-sm-6">
                 <label class="control-label">Extension (Opcional)</label>
-                <input class="form-control" placeholder="Ingresa tu extension" type="text" name="extension">
+                <input class="form-control" placeholder="Ingresa tu extension" type="text" name="extension"
+                       maxlength="5" onchange="" onblur="">
             </div>
         </div>
         <br/><br/>
