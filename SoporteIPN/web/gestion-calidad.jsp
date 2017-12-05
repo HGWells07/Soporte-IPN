@@ -159,6 +159,17 @@
                         <div class="panel-collapse collapse " id="panel-01">
                         <div class="panel-body">
                             
+
+		            <a href="./../secure/CGSI-MC-01 09_102017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Análisis de Datos Octubre 2017
+                                </p>
+                            </a>
+                            <a href="./../secure/CGSI-MC-01 10_102017.pdf" class="link-social-cau" target="_blank">
+                                <p class="bg-info" style="padding: 10px;" >
+                                    Matriz de Control Octubre 2017
+                                </p>
+                            </a>
                             <a href="./../secure/CGSI-MC-01 09_092017.pdf" class="link-social-cau" target="_blank">
                                 <p class="bg-info" style="padding: 10px;" >
                                     Análisis de Datos Septiembre 2017
@@ -179,16 +190,7 @@
                                     Matriz de Control Agosto 2017
                                 </p>
                             </a>
-			    <a href="./../secure/CGSI-MC-01 09_072017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Análisis de Datos Julio 2017
-                                </p>
-                            </a>
-                            <a href="./../secure/CGSI-MC-01 10_072017.pdf" class="link-social-cau" target="_blank">
-                                <p class="bg-info" style="padding: 10px;" >
-                                    Matriz de Control Julio 2017
-                                </p>
-                            </a>
+			    
                         </div>
                         </div>
                     </div>

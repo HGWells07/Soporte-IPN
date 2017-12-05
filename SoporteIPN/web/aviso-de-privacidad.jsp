@@ -1,4 +1,4 @@
-<%-- 
+﻿<%-- 
     Document   : aviso-de-privacidad
     Created on : 03-nov-2017, 16:17:42
     Author     : OSVALDO
@@ -19,7 +19,7 @@
         <div class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 img_responsive">
+                    <div class="col-sm-8 col-sm-offset-2 img_responsive text-justify">
                         <h3>Aviso de privacidad</h3>
                         <hr/>
                         <p><span>De conformidad con lo establecido en la ley Federal de Protecci&oacute;n de Datos Personales en posesi&oacute;n de sujetos obligados (en adelante &ldquo;Ley&rdquo;), <strong>el Centro de Atenci&oacute;n a Usuarios </strong>(en adelante &ldquo;CAU&rdquo;) pone a su disposici&oacute;n el siguiente aviso de privacidad.</span></p>
@@ -51,9 +51,9 @@
 <li><span>Domicilio: Av. Juan de Dios B&aacute;tiz S/N, esquina Ma. Luisa Estampa Ortigoza, Col. Residencial la escalera, Unidad Profesional "Adolfo L&oacute;pez Mateos" Zacatenco, Del. Gustavo A. Madero, C.P. 07738 M&eacute;xico, CDMX.</span></li>
 <li><span>Tel&eacute;fono 57296000 ext. 46067</span></li>
 <li><span>Correo electr&oacute;nico: crm@ipn.mx</span></li>
-<li><strong><span> Procedimiento y Medio por el cual el Responsable Comunicar&aacute; a los Titulares de los Datos Personales acerca de Cambios al Aviso de Privacidad:</span></strong></li>
+
 </ol>
-<p><span>En cualquier momento el CAU puede hacer modificaciones o actualizaciones al presente Aviso de Privacidad, para la atenci&oacute;n de novedades legislativas, pol&iacute;ticas internas o nuevos requerimientos para la administraci&oacute;n de quejas y reclamaciones de los clientes. Toda modificaci&oacute;n al presente Aviso de Privacidad se le har&aacute; de su conocimiento por medio de la publicaci&oacute;n del mismo en nuestra p&aacute;gina de internet&nbsp;</span><a href="http://www.soporte.ipn.mx"><em><span>www.soporte.ipn.mx</span></em></a><span>.</span></p>
+<p><strong><span> Procedimiento y Medio por el cual el Responsable Comunicar&aacute; a los Titulares de los Datos Personales acerca de Cambios al Aviso de Privacidad:</span></strong></p><p><span>En cualquier momento el CAU puede hacer modificaciones o actualizaciones al presente Aviso de Privacidad, para la atenci&oacute;n de novedades legislativas, pol&iacute;ticas internas o nuevos requerimientos para la administraci&oacute;n de quejas y reclamaciones de los clientes. Toda modificaci&oacute;n al presente Aviso de Privacidad se le har&aacute; de su conocimiento por medio de la publicaci&oacute;n del mismo en nuestra p&aacute;gina de internet&nbsp;</span><a href="http://www.soporte.ipn.mx"><em><span>www.soporte.ipn.mx</span></em></a><span>.</span></p>
 <p><span>&nbsp;</span></p>
 <p><span>Ciudad de M&eacute;xico, M&eacute;xico a 10 de noviembre de 2017 (&Uacute;ltima actualizaci&oacute;n).</span></p>
                     </div>

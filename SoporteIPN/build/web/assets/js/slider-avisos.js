@@ -1,5 +1,5 @@
 var dir = "./assets/images/avisos/"; //Ruta de las imagenes
-var max_lenght = 4; //Número maximo de elementos de la galería
+//var max_lenght = 3; //Número maximo de elementos de la galería
 
 var images_array = [
     //Imagen 1
@@ -34,16 +34,10 @@ var images_array = [
         modal:0,
         srcModal: '',
         descripcion: ''
-    },
-    //Imagen 5
-    {
-        src:dir+'img05.jpg',
-        link:'#',
-        modal:0,
-        srcModal: '',
-        descripcion: ''
     }
 ];
+
+var max_lenght = images_array.length-1;
 
 var current_image = 0;
 var max_index = max_lenght;

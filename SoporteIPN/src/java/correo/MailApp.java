@@ -1,3 +1,5 @@
+package correo;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -40,7 +42,7 @@ public class MailApp extends HttpServlet {
         
         String user = "cau_tics@ipn.mx";
         String to = "crm@ipn.mx";
-        String subject = "Prueba WEB";
+        String subject = "Solicitud de correo institucional";
         String pass = "Ay607513";
         SendMail.send(to,subject, message, user, pass);
         System.out.println("enviando...");

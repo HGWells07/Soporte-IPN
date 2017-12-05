@@ -4,7 +4,7 @@
     
     <servlet>
         <servlet-name>sendmail</servlet-name>
-        <servlet-class>MailApp</servlet-class>
+        <servlet-class>correo.MailApp</servlet-class>
     </servlet>
     
     <servlet-mapping>
