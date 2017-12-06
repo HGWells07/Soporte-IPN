@@ -163,28 +163,44 @@
         
         <!--SCRIPTS PARA SWEET ALERT-->
         <script src="assets/js/sweetalert.min.js"></script>
-        <script> 
-            swal(
-             {
-                title: '<b>Aviso de privacidad</b><br/>'+
-                'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+
-                '<br /><a href="aviso-de-privacidad.jsp">Leer más</a>',
-                type: 'info',
-                html:
-                  'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+
-                  '<br /><a href="aviso-de-privacidad.jsp">Leer más</a>',
-                showCloseButton: true,
-                showCancelButton: false,
-                focusConfirm: false,
-                confirmButtonText:
-                  'Aceptar',
-                confirmButtonAriaLabel: 'Aceptar',
-                cancelButtonText:
-                'Leer más',
-                cancelButtonAriaLabel: 'Leer más'
-              }        
-            );
-        </script>  
+        <%
+
+        if(request.getParameter("sent")!=null){
+            out.println("<script>swal('Correo Enviado','Tu solicitud se ha enviado. "
+                    + "Esta será atendida a la brevedad posible');</script>");
+        } else {
+            out.println("<script>" 
+            +"swal("
+             +"{"
+                +"title: '<b>Aviso de privacidad</b><br/>'+"
+                +"'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+"
+                +"'<br /><a href=\"aviso-de-privacidad.jsp\">Leer más</a>',"
+                +"type: 'info',"
+                +"html:"
+                  +"'Conozca el aviso de privacidad del Centro de Atención a Usuarios'+"
+                  +"'<br /><a href=\"aviso-de-privacidad.jsp\">Leer más</a>',"
+                +"showCloseButton: true,"
+                +"showCancelButton: false,"
+                +"focusConfirm: false,"
+                +"confirmButtonText:"
+                  +"'Aceptar',"
+                +"confirmButtonAriaLabel: 'Aceptar',"
+                +"cancelButtonText:"
+                +"'Leer más',"
+                +"cancelButtonAriaLabel: 'Leer más'"
+              +"}    "    
+            +");"
+        +"</script> ");
+        }
+        
+        /*
+        
+            
+        
+        */
+
+        %>
+         
     <script src="assets/js/slider-avisos.js"></script>
     </body>
     

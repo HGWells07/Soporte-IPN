@@ -17,14 +17,7 @@
     </head>
     <body>
         <script src="./assets/js/sweetalert.min.js"></script>
-        <%
-
-        if(request.getParameter("sent")!=null){
-            out.println("<script>swal('Correo Enviado','Tu solicitud se ha enviado. "
-                    + "Esta será atendida a la brevedad posible');</script>");
-        }
-
-        %>
+        
         <main>
             
         <%
