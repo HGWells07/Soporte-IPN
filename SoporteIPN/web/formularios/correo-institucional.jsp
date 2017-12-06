@@ -85,7 +85,7 @@
                 <!--NIVEL-->
                 <label class="control-label">Unidad Académica</label>
                 <input class="form-control" placeholder="Ej. ESCA Tepepan" type="text" name="unidad" id='unidad'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('unidad')" required/>
+                       style="text-transform:uppercase;" required/>
             </div>
             <!--
             Unidad
