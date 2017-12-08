@@ -57,4 +57,23 @@ function agregarOpcion(val, select) {
   select.appendChild(option);
 }
 
+function llenarUnidades() {
+  
+  vaciar(unidad);
+  for (var i = 0; i < arreglo[0].unidades.length; i += 1) {
+    agregarOpcion(arreglo[0].unidades[i], unidad);
+  }
+};
+
+function llenarTipos() {
+    vaciar(tipo);
+    for(var i = 0; i < arreglo.length; i++){
+        agregarOpcion(arreglo[i].tipo, tipo);
+    }
+};
+
+llenarUnidades();
+llenarTipos();
+
+
 

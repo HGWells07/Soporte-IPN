@@ -86,7 +86,7 @@
                 <!--Tipo de unidad académica (Ordenado como en el directorio de Jefes de UDI)-->
                 <label class="control-label">Tipo de unidad académica</label>
                 <select class="form-control" placeholder="Ej. ESCA Tepepan" name="tipo_unidad" id='tipo_unidad'
-                        required/>
+                        required>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -97,7 +97,7 @@
                 <!--Nombre de la unidad académica-->
                 <label class="control-label">Unidad Académica</label>
                 <select class="form-control" placeholder="Ej. ESCA Tepepan" name="nombre_unidad" id='nombre_unidad'
-                       required/>
+                       required>
                     <option>Hola</option>
                     <option>Hola</option>
                     <option>Hola</option>
