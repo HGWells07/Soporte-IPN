@@ -21,7 +21,7 @@ public class MailApp extends HttpServlet {
         
         //Se obtienen los parametros del formulario de correo
         String curp =  request.getParameter("curp");
-        String unidad = request.getParameter("unidad");
+        String unidad = request.getParameter("nombre_unidad");
         String matricula = request.getParameter("matricula");
         String rol = request.getParameter("rol");
         String ext = request.getParameter("extension");

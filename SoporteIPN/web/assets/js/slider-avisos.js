@@ -4,36 +4,45 @@ var dir = "./assets/images/avisos/"; //Ruta de las imagenes
 var images_array = [
     //Imagen 1
     {
+        src:dir+'img05.jpg',
+        link:'#',
+        modal:0,
+        srcModal: '',
+        descripcion: 'Aviso de navidad'
+        
+    },
+    //Imagen 2
+    {
         src:dir+'img01.jpg',
         link:'#',
         modal:1,
         srcModal: './assets/images/modal_01.jpg',
-        descripcion: 'Hola'
+        descripcion: 'Certificado'
         
     },
-    //Imagen 2
+    //Imagen 3
     {
         src:dir+'img02.jpg',
         link:'aviso-de-privacidad.jsp',
         modal:0,
         srcModal: '',
-        descripcion: ''
+        descripcion: 'Aviso de privacidad'
     },
-    //Imagen 3
+    //Imagen 4
     {
         src:dir+'img03.jpg',
         link:'solicitud-servicio.jsp',
         modal:0,
         srcModal: '',
-        descripcion: ''
+        descripcion: 'Solicitud de servicio WEB'
     },
-    //Imagen 4
+    //Imagen 5
     {
         src:dir+'img04.jpg',
         link:'#',
         modal:0,
         srcModal: '',
-        descripcion: ''
+        descripcion: 'Servicio social'
     }
 ];
 
@@ -97,7 +106,7 @@ var intervalId;
         if (intervalId) {
             clearInterval(intervalId);
         }
-        intervalId = setInterval(right, 3000);
+        intervalId = setInterval(right, 7000);
     };
 galeria();
 

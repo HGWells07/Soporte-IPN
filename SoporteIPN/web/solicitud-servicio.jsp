@@ -83,5 +83,6 @@
         <!--SCRIPTS-->
         <jsp:include page="scripts/scriptGeneral.jsp" />
         <script src="assets/js/validacion.js" type="text/javascript"></script>
+        <script src="assets/js/combo-dinamico-unidades.js" type="text/javascript"></script>
     </body>
 </html>

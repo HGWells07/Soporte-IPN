@@ -155,7 +155,7 @@
                 <img id="modal_imagen" />
 
                 <!-- Subtitulo del modal (Texto de la imagen) -->
-                <div id="modal_descripcion"></div>
+                <!--<div id="modal_descripcion"></div>-->
             </div>
         
     <!--SCRIPTS-->

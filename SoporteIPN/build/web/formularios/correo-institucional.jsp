@@ -81,11 +81,28 @@
             </div>
         </div>
         <div class="form-group">
-            <div class="col-sm-12">
-                <!--NIVEL-->
+            <!--Combo dinámico de unidades-->
+            <div class="col-sm-6">
+                <!--Tipo de unidad académica (Ordenado como en el directorio de Jefes de UDI)-->
+                <label class="control-label">Tipo de unidad académica</label>
+                <select class="form-control" placeholder="Ej. ESCA Tepepan" name="tipo_unidad" id='tipo_unidad'
+                        required/>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                </select>
+            </div>
+            
+            <div class="col-sm-6">
+                <!--Nombre de la unidad académica-->
                 <label class="control-label">Unidad Académica</label>
-                <input class="form-control" placeholder="Ej. ESCA Tepepan" type="text" name="unidad" id='unidad'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('unidad')" required/>
+                <select class="form-control" placeholder="Ej. ESCA Tepepan" name="nombre_unidad" id='nombre_unidad'
+                       required/>
+                    <option>Hola</option>
+                    <option>Hola</option>
+                    <option>Hola</option>
+                </select>
+                <!--ant: style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('unidad')" -->
             </div>
             <!--
             Unidad
