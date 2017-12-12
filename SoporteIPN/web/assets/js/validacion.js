@@ -15,20 +15,16 @@ function validarCURP(campo) {
 }
 
 
-
 //VALIDACION DE BOLETA
 function valicionNUM() {
     boleta = document.getElementById("matricula").value;
-    console.log("Boleta ingresada: "+boleta);
-    
     digito = boleta.charAt(0);
-    console.log("El primer digito es: " + digito);
-    
+
     if (digito === 'P') {
         alert("Boleta invalida, favor de verificar");
         //campo.value = '';
     }
-    
+
 }
 
 function soloLetras(e) {
@@ -50,17 +46,55 @@ function soloLetras(e) {
     }
 }
 
-function limpia(id) {
+function verDatos() {
+    var curp = document.getElementById("campoCurp").value.toString();
+    var rol = document.getElementById("rol").value.toString();
+    var numero = document.getElementById("matricula").value.toString();
+    var nombre = document.getElementById("nombre").value.toString();
+    var apellido1 = document.getElementById("apellido1").value.toString();
+    var apellido2 = document.getElementById("apellido2").value.toString();
+    var institucion = document.getElementById("nombre_unidad").value.toString();
+    var extension = document.getElementById("extension").value.toString();
+    var correo = document.getElementById("correo").value.toString();
+
+    console.log(
+            'Los datos son: \nCURP: ' + curp
+            + '\nRol: ' + rol
+            + '\nMatricula: ' + numero
+            + '\nNombre: ' + nombre + ' ' + apellido1 + ' ' + apellido2
+            + '\nInstitucion: ' + institucion
+            + '\nExtension: ' + extension
+            + '\nCorreo: ' + correo
+            + '\nEsto es una eñe: \u00d1, '
+            + 'E\u00d1e de ni\u00d1o'
+            );
+
+}
+
+function reemplazar(elemento) {
+    //Obtengo el valor del elemento
+    var valor = elemento.value;
     
-//    var val = document.getElementById(id).value;
-//    var tam = val.length;
-//    acumulado = '';
-//    for (i = 0; i < tam; i++) {
-//        acumulado += val[i];
-//        if (!isNaN(val[i]))
-//        {
-//            alert('el valor invalido es:' + val[i] + ':v '+acumulado);
-//            //document.getElementById(id).value = '';
-//        }
-//    }
+    //Caracter por el que se va a reemplazar
+    var caracter_remplazar = "\u00d1";
+    // Caracter el cual vamos a Busca
+    var caracter_buscado = "Ñ";
+    
+    //Valor de salida
+    var salida = "";
+    
+    //Tamaño de la cadena
+    var tam = valor.length;
+    
+    //Recorremos cadenas
+    for (var i = 0; i < tam; i++) {
+    // si es igual al caracter buscado lo remplazamos
+        if (caracter_buscado === "" + valor.charAt(i)) {
+            salida = salida + "" + caracter_remplazar;
+        } else {
+            salida = salida + "" + valor.charAt(i);
+        }
+    }
+    
+    elemento.value = salida;
 }

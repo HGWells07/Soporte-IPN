@@ -19,8 +19,8 @@
         <div class="form-group">
             <div class="col-sm-6">
                 <label class="control-label">CURP</label>&nbsp;&nbsp;¿No conoces tu curp? Chécalo <a target="_blank" href="https://consultas.curp.gob.mx/CurpSP/inicio2_2.jsp">aquí</a>
-                <input class="form-control" placeholder="Inserta tu CURP (18 caracteres)" type="text" name="curp" id="campoCurp"
-                       maxlength="18" onchange="validarCURP(this);" style="text-transform:uppercase;" required>
+                <input class="form-control" placeholder="Ingresa tu CURP (18 caracteres)" type="text" name="curp" id="campoCurp"
+                       onkeyup="javascript:this.value=this.value.toUpperCase();" maxlength="18" onchange="validarCURP(this);" required>
             </div>
         </div>
         <div class="form-group">
@@ -30,12 +30,12 @@
             -->
             <div class="col-sm-6">
                 <label class="control-label">Selecciona un rol</label>
-                <select class="form-control" name="rol" required>
-                    <option value="">ROL</option>
+                <select class="form-control" name="rol" id="rol" required>
+                    <option value="">Rol</option>
                     <option value="ADMINISTRATIVO">ADMINISTRATIVO</option>
                     <option value="DOCENTE">DOCENTE</option>
                     <option value="EGRESADO">EGRESADO</option>
-                    <option value="ESTUDIANTE">ESTUDIANTE</option>
+                    <option value="ALUMNO">ALUMNO</option>
                     <option value="FUNCIONARIO">FUNCIONARIO</option>
                     <option value="INVESTIGADOR">INVESTIGADOR</option>
                 </select>
@@ -47,7 +47,7 @@
             <div class="col-sm-6">
                 <label class="control-label">No. Empleado / Boleta</label>
                 <input class="form-control" type="text" placeholder="Ingresa tu No. empleado/boleta" id='matricula' name='matricula' maxlength="10" 
-                       onchange="valicionNUM();" style="text-transform: uppercase;" required/>
+                       onkeyup="javascript:this.value=this.value.toUpperCase();" onchange="valicionNUM();" required/>
             </div>
         </div>
         <!--
@@ -58,7 +58,7 @@
             <div class="col-sm-12">
                 <label class="control-label">Nombre(s)</label>
                 <input class="form-control" placeholder="Ingresa tu(s) nombre(s)" type="text" name="nombre" id='nombre'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('nombre')" required/>
+                       onkeyup="javascript:this.value=this.value.toUpperCase();" onkeypress="return soloLetras(event)" onchange="reemplazar(this);" required/>
             </div>
         </div>
         <!--
@@ -69,7 +69,7 @@
             <div class="col-sm-12">
                 <label class="control-label">Primer Apellido</label>
                 <input class="form-control" placeholder="Ingresa tu primer apellido" type="text" name="apellido1" id='apellido1'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('apellido1')" required/>
+                       onkeyup="javascript:this.value=this.value.toUpperCase();" onkeypress="return soloLetras(event)" onchange="reemplazar(this);" required/>
             </div>
 
         </div>
@@ -77,9 +77,13 @@
             <div class="col-sm-12">
                 <label class="control-label">Segundo Apellido</label>
                 <input class="form-control" placeholder="Ingresa tu segundo apellido" type="text" name="apellido2" id='apellido2'
-                       style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('apellido2')" required/>
+                       onkeyup="javascript:this.value=this.value.toUpperCase();" onkeypress="return soloLetras(event)" onchange="reemplazar(this);"/>
             </div>
         </div>
+        <!--
+        Unidad
+        =========================================================================================================
+        -->
         <div class="form-group">
             <!--Combo dinámico de unidades-->
             <div class="col-sm-6">
@@ -87,9 +91,12 @@
                 <label class="control-label">Tipo de unidad académica</label>
                 <select class="form-control" placeholder="Ej. ESCA Tepepan" name="tipo_unidad" id='tipo_unidad'
                         required>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
+                        <option>Nivel Medio Superior</option>
+                        <option>Nivel Superior</option>
+                        <option>Unidades Centrales</option>
+                        <option>Centros de Educación Continua</option>
+                        <option>Centros de Investigación</option>
+                        <option>Centros y Unidades de Apoyo</option>
                 </select>
             </div>
             
@@ -98,16 +105,9 @@
                 <label class="control-label">Unidad Académica</label>
                 <select class="form-control" placeholder="Ej. ESCA Tepepan" name="nombre_unidad" id='nombre_unidad'
                        required>
-                    <option>Hola</option>
-                    <option>Hola</option>
-                    <option>Hola</option>
                 </select>
-                <!--ant: style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('unidad')" -->
+                <!--antes: style="text-transform:uppercase;" onkeypress="return soloLetras(event)" onblur="limpia('unidad')" -->
             </div>
-            <!--
-            Unidad
-            =========================================================================================================
-            -->
         </div>
         <div class="form-group">
             <!--
@@ -116,7 +116,7 @@
             -->
             <div class="col-sm-6">
                 <label class="control-label">Correo electronico</label>
-                <input class="form-control" placeholder="Ingresa un correo personal" type="email" name="correo" required>
+                <input class="form-control" placeholder="Ingresa un correo personal" type="email" name="correo" id="correo" required>
             </div>
             <!--
             Extension
@@ -124,8 +124,8 @@
             -->
             <div class="col-sm-6">
                 <label class="control-label">Extension (Opcional)</label>
-                <input class="form-control" placeholder="Ingresa tu extension" type="text" name="extension"
-                       maxlength="5" onchange="" onblur="">
+                <input class="form-control" placeholder="Ingresa tu extension" type="text" name="extension" id="extension"
+                       maxlength="5" onchange="">
             </div>
         </div>
         <br />
